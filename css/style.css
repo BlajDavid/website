@@ -173,11 +173,12 @@ ul#services li {
 }
 
 footer {
-    padding: 20px;
+    padding: 5px;
     margin-top: 20px;
     color: #ffffff;
     background-color: #e8491d;
     text-align: center;
+    position: running(footer);
 }
 
 /* Media Querries */
