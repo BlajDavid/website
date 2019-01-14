@@ -87,8 +87,8 @@ header a:hover {
 
 /* Showcase */
 #showcase {
-    min-height: 400px;
-    background: url('../resources/images/showcase.jpg') no-repeat 0 -400px;
+    min-height: 600px;
+    
     text-align: center;
     color: #ffffff;
 }
@@ -108,6 +108,7 @@ header a:hover {
     padding: 15px;
     color: #ffffff;
     background: #35424a;
+    margin-top: 25px;
 }
 
 #newsletter h1 {
