@@ -7,9 +7,7 @@
     <meta name="description" content="Online shop to buy books for your desires">
     <meta name="keywords" content="bookshop, online books, books, online ebooks, ebook">
     <meta name="author" content="Blaj David">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/slideshow.css">
-    <link rel="stylesheet" href="./css/slideshow.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
@@ -30,42 +28,47 @@
         </div>
     </header>
 
-
     <section id="main">
-            <div class="container">
-                <article id="main-col">
-                    <h1 class="page-title">About us</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lobortis nisl. Aenean eget
-                        cursus neque, nec malesuada arcu. Suspendisse efficitur dui non tortor accumsan bibendum. Aliquam
-                        vel efficitur odio, ut sodales est. Cras at mauris lectus. Nam vel tellus hendrerit, egestas nisl
-                        nec, porta turpis. Vestibulum maximus enim sed erat sodales fringilla. Vestibulum facilisis
-                        fermentum sapien, at eleifend diam finibus ut. Maecenas pharetra tempor urna, eget aliquam nunc
-                        rhoncus vitae.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non lobortis nisl. Aenean eget
-                        cursus neque, nec malesuada arcu. Suspendisse efficitur dui non tortor accumsan bibendum. Aliquam
-                        vel efficitur odio, ut sodales est. Cras at mauris lectus. Nam vel tellus hendrerit, egestas nisl
-                        nec, porta turpis. Vestibulum maximus enim sed erat sodales fringilla. Vestibulum facilisis
-                        fermentum sapien, at eleifend diam finibus ut. Maecenas pharetra tempor urna, eget aliquam nunc
-                        rhoncus vitae.</p>
-                </article>
-    
+        <div class="container">
+            <article id="main-col">
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+                <ul id="myUL">
+                    <li><a href="#" id="0">Agatha Christie</a></li>
+                    <li><a href="#" id="1">Albert Camus</a></li>
+                    <li><a href="#" id="2">Anton Cehov</a></li>
+
+                    <li><a href="#" id="3">Arthur Conan Doyle</a></li>
+                    <li><a href="#" id="4">Charles Dickens</a></li>
+
+                    <li><a href="#" id="5">Feodor Dostoievski</a></li>
+                    <li><a href="#" id="6">Immanuel Kant</a></li>
+                    
+                    <li><a href="#" id="7">J.R.R. Tolkien</a></li>
+                    <li><a href="#" id="8">Jules Verne</a></li>
+                   
+                    <li><a href="#" id="9">Karl May</a></li>
+                    <li><a href="#" id="10">Lev Tolstoi</a></li>
+                    
+                    <li><a href="#" id="11">William Shakespare</a></li>
+                    
+                </ul>
+            </article>        
                 <aside id="sidebar">
                     <div class="dark">
-                        <h3>What we do</h3>
-                        <p>In vel fringilla augue, ut porttitor velit. Praesent sit amet orci est. Sed ultricies, quam eu
-                            fermentum feugiat, enim lacus dapibus augue, et fringilla magna est eu purus. Praesent dapibus,
-                            enim ut posuere mollis, nibh nibh pellentesque eros, nec placerat diam mauris nec nibh. Donec
-                            vel nunc sit amet augue euismod sagittis. Curabitur ultrices et ligula a consectetur.</p>
+                        <div class="information">
+                        <h3>Agatha Christie</h3>
+                        <p id="years">(15 September 1890 – 12 January 1976)</p>
+                        </div>        
+                        <p id="text">Agatha Christie was an English writer. She is known for her 66 detective novels and 14 short story collections, particularly those revolving around her fictional detectives Hercule Poirot and Miss Marple. Christie also wrote the world's longest-running play, a murder mystery, The Mousetrap, and, under the pen name Mary Westmacott, six romances. In 1971 she was appointed a Dame Commander of the Order of the British Empire for her contribution to literature.</p>
                     </div>
                 </aside>
-    
             </div>
-        </section>
-
-
-
+    </section>
     <div class='footer'></div>
+   
+    <script src="../website/js/filter-authors.js"></script>
 
- </body>
+</body>
 
 </html>

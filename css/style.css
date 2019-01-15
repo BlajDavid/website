@@ -36,6 +36,17 @@ ul {
 
 }
 
+.information {
+    background: #35424a;
+    color: #ffffff;
+    display:inline;
+}
+
+#years {
+    font-size: 13px;
+    font-style: italic;
+}
+
 /* Header */
 
 header {
