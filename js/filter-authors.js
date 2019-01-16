@@ -32,7 +32,8 @@ let description = ["(15 September 1890 – 12 January 1976)   Agatha Christie wa
 "",
 "",
 "",
-"(8 February 1828 – 24 March 1905) was a French novelist, poet, and playwright.Jules Verne was born in the seaport of Nantes, he was trained to follow in his father's footsteps as a lawyer, but quit the profession early in life to write for magazines and the stage. His collaboration with the publisher Pierre-Jules Hetzel led to the creation of the Voyages extraordinaires, a widely popular series of scrupulously researched adventure novels including Journey to the Center of the Earth (1864), Twenty Thousand Leagues Under the Sea (1870), and Around the World in Eighty Days (1873)."
+"(8 February 1828 – 24 March 1905) Was a French novelist, poet, and playwright.Jules Verne was born in the seaport of Nantes, he was trained to follow in his father's footsteps as a lawyer, but quit the profession early in life to write for magazines and the stage. His collaboration with the publisher Pierre-Jules Hetzel led to the creation of the Voyages extraordinaires, a widely popular series of scrupulously researched adventure novels including Journey to the Center of the Earth (1864), Twenty Thousand Leagues Under the Sea (1870), and Around the World in Eighty Days (1873)."
+,"","",""
 ];
 
 let ul = document.getElementById("myUL");

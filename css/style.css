@@ -64,7 +64,12 @@ header a {
     font-size: 17px;
 }
 
-
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
 
 header li {
    
@@ -152,6 +157,23 @@ header a:hover {
 }
 
 #boxes .box img {
+    width: 140px;
+}
+
+#books {
+    margin-top: 20px;
+
+}
+
+#books .book {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+
+#books .book img {
     width: 140px;
 }
 
